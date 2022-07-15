@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3.125rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 48px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+h3 {
+    margin-top: 360px;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: 0;
+    background-color: #E89074;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #D7856B;
+}
+
+button:active {
+    background-color: #B46F59;
+}
+
+input {
+    border: none;
+    background-color: inherit;
+    padding: 0 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.first-container {
+    background-image: linear-gradient(to top left, #67BB5B 20%, #b8e048);
+    display: flex;
+    flex-direction: column;
+    padding: 14px 14px 70px;
+}
+
+.login {
+    width: 39px;
+    height: 39px;
+}
+
+.hero-content {
+    margin-bottom: 68px;
+}
+.search-box {
+    background-color: #d9d9d9;
+    border-radius: 12px;
+    height: 50px;
+}
+
+.search-bar {
+    width: 100%;
+    height: 100%;
+}
+
+.search-btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.main-img {
+    border-radius: 12px;
+}
+
+.second-container {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 345px;
+    height: 540px;
+    background-image: linear-gradient( #d9d9d9 55%, rgb(31, 31, 31));
+    color: white;
+}

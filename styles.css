@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
 body {
     margin: 0;
     font-family: Roboto, sans-serif;
@@ -250,7 +260,7 @@ footer {
     .cards {
         margin-bottom: 130px;
     }
-    
+
     .card {
         padding: 0 2rem 0 2rem;
     }

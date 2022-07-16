@@ -83,8 +83,12 @@ input:focus {
     outline: none;
 }
 
+.first-container, .action {
+    background-image: linear-gradient(to top left, #67BB5B 20%, #b8e048);    
+}
+
 .first-container {
-    background-image: linear-gradient(to top left, #67BB5B 20%, #b8e048);
+
     display: flex;
     flex-direction: column;
     padding: 14px 14px 70px;
@@ -101,6 +105,7 @@ input:focus {
 .search-box {
     background-color: #d9d9d9;
     border-radius: 12px;
+    max-width: 591px;
     height: 50px;
 }
 
@@ -113,6 +118,7 @@ input:focus {
     width: 100%;
     height: 100%;
     border-radius: 12px;
+    padding: 0 1rem;
 }
 
 .main-img {
@@ -130,6 +136,7 @@ input:focus {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 60px;
 }
 
 .card {
@@ -137,4 +144,27 @@ input:focus {
     height: 540px;
     background-image: linear-gradient( #d9d9d9 55%, rgb(31, 31, 31));
     color: white;
+}
+
+.action {
+    padding: 40px 14px;
+}
+
+.action 
+p {
+    margin-bottom: 2.3rem;
+}
+.sign-up {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.8em 3em;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #696969;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1.1em 0;
 }

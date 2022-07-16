@@ -83,6 +83,31 @@ input:focus {
     outline: none;
 }
 
+@media (min-width: 870px) {
+    h1 {
+        font-size: 5vw;
+        text-align: left;
+        margin: 0 0 28px;
+    }
+    
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        margin: 320px 0 18px;
+    }
+    
+    p {
+        font-size: 2rem;
+    }
+
+    .card p {
+        margin: 0;
+    }
+}
+
 .first-container, .action {
     background-image: linear-gradient(to top left, #67BB5B 20%, #b8e048);    
 }
@@ -94,10 +119,26 @@ input:focus {
     padding: 14px 14px 70px;
 }
 
+.links {
+    display: none;
+}
+
+@media (min-width: 700px) {
+    .links {
+        display: flex;
+    }
+
+    .links > * + * {
+        margin-left: 1em;
+    }
+}
+
 .login {
     width: 39px;
-    height: 39px;
+    height: auto;
 }
+
+
 
 .hero-content {
     margin-bottom: 68px;
@@ -123,6 +164,7 @@ input:focus {
 
 .main-img {
     border-radius: 12px;
+    max-width: 730px;
 }
 
 .second-container {
@@ -154,6 +196,7 @@ input:focus {
 p {
     margin-bottom: 2.3rem;
 }
+
 .sign-up {
     font-size: 1.5rem;
     font-weight: bold;
@@ -167,4 +210,67 @@ footer {
     font-size: 1.25rem;
     font-weight: bold;
     padding: 1.1em 0;
+}
+
+@media (min-width: 870px) {
+
+    .first-container {
+        padding: 20px 12.5vw 7.8vw;
+    }
+
+    .login {
+        width: 61px;
+    }
+    
+    .hero {
+        display: flex;
+        padding-top: 90px;
+    }
+
+    .hero > * {
+        flex-basis: 100%;
+    }
+
+    .search-box {
+        height: 4.12vw;
+    }
+    
+    .search-bar, .search-btn {
+        font-size: 1.75rem;
+    }
+
+    .img {
+        margin-left: 1rem;
+    }
+
+    .second-container {
+        padding-top: 150px;
+    }
+    
+    .cards {
+        margin-bottom: 130px;
+    }
+    
+    .card {
+        padding: 0 2rem 0 2rem;
+    }
+    
+    .action {
+        padding: 6rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .action p {
+        max-width: 43.5vw;
+        margin-bottom: 4rem;
+    }
+    .sign-up {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
 }

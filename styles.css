@@ -150,6 +150,12 @@ input:focus {
     height: auto;
 }
 
+.login img {
+    border-radius: 50px;
+    box-shadow: 0.06em 0.06em 0.15em
+    rgba(0,0,0, 0.35);
+}
+
 .hero-content {
     margin-bottom: 68px;
 }
